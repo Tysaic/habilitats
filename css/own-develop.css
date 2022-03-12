@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap');
+
+#main-slogan-title{
+    font-family: 'Merriweather', serif;
+    font-weight: 400;
+}
+
+.btn-outline-lg.page-scroll{
+    background-color: #ffffff;
+}
+
+#about-us-title{
+    font-size: 3.2rem;
+    
+}
+
+#main-slogan-title, #about-us-title{
+    text-align: center;
+    
+}
+.btn-outline-lg.page-scroll,#main-slogan-title{
+    color: #000;
+}

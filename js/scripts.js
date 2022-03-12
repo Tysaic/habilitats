@@ -4,7 +4,7 @@
 // Collapse the navbar by adding the top-nav-collapse class
 window.onscroll = function () {
 	scrollFunction();
-	scrollFunctionBTT(); // back to top button
+	//scrollFunctionBTT(); // back to top button
 };
 
 function scrollFunction() {
@@ -53,12 +53,12 @@ function toggleDropdown(e) {
 }
 
 // On hover
-document.querySelector(".dropdown").addEventListener("mouseleave", toggleDropdown);
+//document.querySelector(".dropdown").addEventListener("mouseleave", toggleDropdown);
 
-document.querySelector(".dropdown").addEventListener("mouseover", toggleDropdown);
+//document.querySelector(".dropdown").addEventListener("mouseover", toggleDropdown);
 
 // On click
-document.querySelector(".dropdown").addEventListener("click", (e) => {
+/*document.querySelector(".dropdown").addEventListener("click", (e) => {
 	const _d = e.target.closest(".dropdown");
 	let _m = document.querySelector(".dropdown-menu", _d);
 	if (_d.classList.contains("show")) {
@@ -68,7 +68,7 @@ document.querySelector(".dropdown").addEventListener("click", (e) => {
 		_m.classList.add("show");
 		_d.classList.add("show");
 	}
-});
+});*/
   
 
 /* Card Slider - Swiper */
