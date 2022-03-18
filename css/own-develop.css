@@ -18,6 +18,20 @@
     text-align: center;
     
 }
-.btn-outline-lg.page-scroll,#main-slogan-title{
+.btn-outline-lg.page-scroll{
     color: #000;
+}
+
+#contact>.container>.row>.col-lg-12>*,
+#contact>.container>.row>.col-lg-12>ul>li>a
+{
+    color:#003052;
+    font-weight: 900;
+}
+
+#main-slogan-title{
+    color:#003052;
+}
+.grow-up-paragraph{
+    font-size: 1.2em;
 }
