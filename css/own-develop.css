@@ -1,8 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap');
-
 #main-slogan-title{
-    font-family: 'Merriweather', serif;
-    font-weight: 400;
+    font: 900 3rem "Open Sans", sans-serif;
 }
 
 .btn-outline-lg.page-scroll{
@@ -23,8 +20,7 @@
 }
 
 #contact>.container>.row>.col-lg-12>*,
-#contact>.container>.row>.col-lg-12>ul>li>a
-{
+#contact>.container>.row>.col-lg-12>ul>li>a{
     color:#003052;
     font-weight: 900;
 }
