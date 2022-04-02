@@ -162,7 +162,7 @@ a:hover {
 	width: 5rem;
 	margin-top: 0.75rem;
 	margin-bottom: 0.75rem;
-	border: 1px solid #ffffff;
+	border: 1px solid #000;
 	background-color: #004C84;
 	opacity: 1;
 }
@@ -672,18 +672,18 @@ a:hover {
 .basic-5 {
 	padding-top: 9.5rem;
 	padding-bottom: 9rem;
-	background: url('../images/process-background.jpg') center center no-repeat;
+	background: url('../images/internal-images/main_banner.png') center center no-repeat;
 	background-size: cover;
 	text-align: center;
 }
 
 .basic-5 h2 {
-	color: #ffffff;
+	color: #000;
 	margin-bottom: 1.5rem;
 }
 
 .basic-5 .hr-heading {
-	background-color: #ffffff;
+	background-color: #000;
 	margin-right: auto;
 	margin-bottom: 4.5rem;
 	margin-left: auto;
@@ -697,9 +697,9 @@ a:hover {
 	display: block;
 	margin-bottom: 1.5rem;
 	padding: 1.75rem 3.25rem;
-	border: 1px solid #ffffff;
+	border: 1px solid #000;
 	border-radius: 4px;
-	color: #ffffff;
+	color: #000;
 	font-size: 2rem;
 }
 
@@ -708,7 +708,7 @@ a:hover {
 }
 
 .basic-5 p {
-	color: #ffffff;
+	color: #000;
 	opacity: 0.9;
 }
 
@@ -1225,7 +1225,7 @@ a:hover {
 		display: inline-block;
 		margin-right: 1rem;
 		margin-left: 1rem;
-		color: #ffffff;
+		color: #000;
 		font-size: 1.5rem;
 		vertical-align: 10%;
 	}
