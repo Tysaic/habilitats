@@ -775,7 +775,7 @@ a:hover {
 
 .counter h2 {
 	margin-bottom: 1.5rem;
-	color: #ffffff;
+	color: #D14F15;
 	text-align: center;
 }
 
@@ -800,7 +800,7 @@ a:hover {
 
 .counter .list-unstyled h5,
 .counter .list-unstyled .text {
-	color: #ffffff;
+	color: #000000;
 }
 
 .counter .list-unstyled .text {
@@ -824,7 +824,7 @@ a:hover {
 }
 
 .counter .counter-info {
-	color: #ffffff;
+	color: #000000;
 	font-size: 0.875rem;
 	line-height: 1.5rem;
 }
@@ -1190,13 +1190,19 @@ a:hover {
 /*************************/
 /*     Media Queries     */
 /*************************/	
+/* Max-width 767px */
+@media (max-width: 767px){
+	header{
+		margin-top: 4em;
+	}
+}
 /* Min-width 768px */
 @media (min-width: 768px) {
 
 	/* Header */
 	.header {
 		padding-top: 11rem;
-		padding-bottom: 9rem;
+		padding-bottom: 18rem;
 	}
 
 	.header .btn-solid-lg {
